@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 105.0.0.0,,,2022-09-13 18:52:33,2022-09-13 18:53:20,46.270s,PASSED
+,,,,,,,
+Test Cases/Nullbrainer contact us,Chrome 105.0.0.0,,,2022-09-13 18:52:34,2022-09-13 18:53:20,45.781s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-13 18:52:34,2022-09-13 18:52:38,3.423s,PASSED
+"navigateToUrl(""https://nullbrainer.io/contact/"")",Chrome 105.0.0.0,,,2022-09-13 18:52:38,2022-09-13 18:53:08,30.002s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-13 18:53:08,2022-09-13 18:53:08,0.175s,PASSED
+"setText(findTestObject(""Object Repository/Page_Contact - nullBrainer/input_Contact_your-name""), ""QA Engineer Testing the website for better user experience"")",Chrome 105.0.0.0,,,2022-09-13 18:53:08,2022-09-13 18:53:10,1.728s,PASSED
+"setText(findTestObject(""Object Repository/Page_Contact - nullBrainer/input_Contact_your-email""), ""ahsan@nullbrainer.io"")",Chrome 105.0.0.0,,,2022-09-13 18:53:10,2022-09-13 18:53:11,0.870s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Contact - nullBrainer/select_App Development  TestingWebsite Deve_e473fb""), ""Website Development & Design"", true)",Chrome 105.0.0.0,,,2022-09-13 18:53:11,2022-09-13 18:53:12,1.226s,PASSED
+"setText(findTestObject(""Object Repository/Page_Contact - nullBrainer/input_Contact_Phone""), ""0000000000000"")",Chrome 105.0.0.0,,,2022-09-13 18:53:12,2022-09-13 18:53:13,0.804s,PASSED
+"setText(findTestObject(""Object Repository/Page_Contact - nullBrainer/input_Contact_company""), ""Nullbrainers"")",Chrome 105.0.0.0,,,2022-09-13 18:53:13,2022-09-13 18:53:13,0.782s,PASSED
+"setText(findTestObject(""Object Repository/Page_Contact - nullBrainer/textarea_Contact_textarea""), ""HI there I am testing this website for better user experience so we don't face any difficulties in future, Best of luck!"")",Chrome 105.0.0.0,,,2022-09-13 18:53:13,2022-09-13 18:53:14,0.943s,PASSED
+"click(findTestObject(""Object Repository/Page_Contact - nullBrainer/input_Contact_wpcf7-form-control has-spinne_f93865""))",Chrome 105.0.0.0,,,2022-09-13 18:53:14,2022-09-13 18:53:18,3.984s,PASSED
+"click(findTestObject(""Object Repository/Page_Contact - nullBrainer/div_Thank you for your message. Our team wi_a6901e""))",Chrome 105.0.0.0,,,2022-09-13 18:53:18,2022-09-13 18:53:19,0.456s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-13 18:53:19,2022-09-13 18:53:20,0.749s,PASSED
