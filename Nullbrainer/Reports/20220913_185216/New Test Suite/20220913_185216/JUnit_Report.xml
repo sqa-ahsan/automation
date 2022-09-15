@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="46.27" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="46.27" skipped="0" timestamp="2022-09-13 18:52:33" hostname="Dell - DESKTOP-U5KNH4S" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\Katalon Studio\\Nullbrainer\\Reports\\20220913_185216\\New Test Suite\\20220913_185216"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\Katalon Studio\\Nullbrainer\\Reports\\20220913_185216\\New Test Suite\\20220913_185216\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell - DESKTOP-U5KNH4S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 105.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.146"/>
+         <property name="sessionId" value="7aba5bfc6525a4042f3087e4d23db851"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Nullbrainer contact us" time="45.781" classname="Test Cases/Nullbrainer contact us" status="PASSED">
+         <system-out><![CDATA[2022-09-13 18:52:34 - [TEST_CASE][PASSED] - Test Cases/Nullbrainer contact us: Test Cases/Nullbrainer contact us
+
+2022-09-13 18:52:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-09-13 18:52:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-13 18:52:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-13 18:52:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-09-13 18:52:38 - [TEST_STEP][PASSED] - navigateToUrl("https://nullbrainer.io/contact/"): Navigate to 'https://nullbrainer.io/contact/' successfully
+
+2022-09-13 18:53:08 - [MESSAGE][PASSED] - Navigate to 'https://nullbrainer.io/contact/' successfully
+
+2022-09-13 18:53:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-13 18:53:08 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-13 18:53:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Contact - nullBrainer/input_Contact_your-name"), "QA Engineer Testing the website for better user experience"): Text 'QA Engineer Testing the website for better user experience' is set on object 'Object Repository/Page_Contact - nullBrainer/input_Contact_your-name'
+
+2022-09-13 18:53:10 - [MESSAGE][PASSED] - Text 'QA Engineer Testing the website for better user experience' is set on object 'Object Repository/Page_Contact - nullBrainer/input_Contact_your-name'
+
+2022-09-13 18:53:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Contact - nullBrainer/input_Contact_your-email"), "ahsan@nullbrainer.io"): Text 'ahsan@nullbrainer.io' is set on object 'Object Repository/Page_Contact - nullBrainer/input_Contact_your-email'
+
+2022-09-13 18:53:11 - [MESSAGE][PASSED] - Text 'ahsan@nullbrainer.io' is set on object 'Object Repository/Page_Contact - nullBrainer/input_Contact_your-email'
+
+2022-09-13 18:53:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Contact - nullBrainer/select_App Development  TestingWebsite Deve_e473fb"), "Website Development & Design", true): All options with value 'Website Development & Design' are selected in object 'Object Repository/Page_Contact - nullBrainer/select_App Development  TestingWebsite Deve_e473fb'  using regular expression
+
+2022-09-13 18:53:12 - [MESSAGE][PASSED] - All options with value 'Website Development & Design' are selected in object 'Object Repository/Page_Contact - nullBrainer/select_App Development  TestingWebsite Deve_e473fb'  using regular expression
+
+2022-09-13 18:53:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Contact - nullBrainer/input_Contact_Phone"), "0000000000000"): Text '0000000000000' is set on object 'Object Repository/Page_Contact - nullBrainer/input_Contact_Phone'
+
+2022-09-13 18:53:13 - [MESSAGE][PASSED] - Text '0000000000000' is set on object 'Object Repository/Page_Contact - nullBrainer/input_Contact_Phone'
+
+2022-09-13 18:53:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Contact - nullBrainer/input_Contact_company"), "Nullbrainers"): Text 'Nullbrainers' is set on object 'Object Repository/Page_Contact - nullBrainer/input_Contact_company'
+
+2022-09-13 18:53:13 - [MESSAGE][PASSED] - Text 'Nullbrainers' is set on object 'Object Repository/Page_Contact - nullBrainer/input_Contact_company'
+
+2022-09-13 18:53:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Contact - nullBrainer/textarea_Contact_textarea"), "HI there I am testing this website for better user experience so we don't face any difficulties in future, Best of luck!"): Text 'HI there I am testing this website for better user experience so we don't face any difficulties in future, Best of luck!' is set on object 'Object Repository/Page_Contact - nullBrainer/textarea_Contact_textarea'
+
+2022-09-13 18:53:14 - [MESSAGE][PASSED] - Text 'HI there I am testing this website for better user experience so we don't face any difficulties in future, Best of luck!' is set on object 'Object Repository/Page_Contact - nullBrainer/textarea_Contact_textarea'
+
+2022-09-13 18:53:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Contact - nullBrainer/input_Contact_wpcf7-form-control has-spinne_f93865")): Object: 'Object Repository/Page_Contact - nullBrainer/input_Contact_wpcf7-form-control has-spinne_f93865' is clicked on
+
+2022-09-13 18:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contact - nullBrainer/input_Contact_wpcf7-form-control has-spinne_f93865' is clicked on
+
+2022-09-13 18:53:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Contact - nullBrainer/div_Thank you for your message. Our team wi_a6901e")): Object: 'Object Repository/Page_Contact - nullBrainer/div_Thank you for your message. Our team wi_a6901e' is clicked on
+
+2022-09-13 18:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contact - nullBrainer/div_Thank you for your message. Our team wi_a6901e' is clicked on
+
+2022-09-13 18:53:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-09-13 18:53:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-13 18:52:33 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Nullbrainer contact us]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
